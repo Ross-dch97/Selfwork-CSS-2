@@ -1,0 +1,83 @@
+*{
+    
+        font-family: "Roboto", system-ui;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgba(38,38,38,0.744);
+    align-items: center;
+}   
+
+ul{
+    display: flex;
+    padding-right: 10px;
+}
+
+
+.Logoaulab{
+    width:100px;
+    height: 100px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    
+}
+
+.link:hover{
+    border-bottom: solid 1px;
+}
+
+.listlink{
+    list-style-type: none;
+    
+}
+
+header{
+    background-image:url(https://sfondo.info/i/original/b/0/7/6021.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+}
+
+h1{
+    color:darkblue;
+    font-size: 50px;
+    
+}
+.linkHome{
+    color:darkblue;
+    text-decoration: none;
+} 
+
+.imgarticle{
+width: 300px;
+}
+
+ 
+
+.btn{
+    background-color:rgba(38, 38,38,0.744);
+    color: white
+}
+.btn:hover{
+    background-color:blue;
+    color:cyan;
+}
+.container{
+    width: 60%;
+    display: flex;
+}
+aside{
+    background-color: yellow;
+    width: 40%;
+    text-align: center;
+}
+main{
+    display: flex;
+}
+
